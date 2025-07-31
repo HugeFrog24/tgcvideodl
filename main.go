@@ -3,9 +3,12 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"math"
 	"os"
 	"os/exec"
 	"path/filepath"
+	"strconv"
+	"strings"
 	"time"
 
 	"github.com/cheggaaa/pb/v3"
@@ -23,8 +26,56 @@ type VideoData struct {
 	VideoDefs []VideoDef `json:"video_defs"`
 }
 
-func downloadStream(m3u8URL, outputDir, name string) error {
+func getVideoDuration(filePath string) (float64, error) {
+	cmd := exec.Command("ffprobe", "-v", "quiet", "-show_entries", "format=duration", "-of", "csv=p=0", filePath)
+	output, err := cmd.Output()
+	if err != nil {
+		return 0, err
+	}
+	
+	durationStr := strings.TrimSpace(string(output))
+	duration, err := strconv.ParseFloat(durationStr, 64)
+	if err != nil {
+		return 0, err
+	}
+	
+	return duration, nil
+}
+
+func fileExistsWithValidDuration(filePath string, expectedDuration int) bool {
+	// Check if file exists
+	if _, err := os.Stat(filePath); os.IsNotExist(err) {
+		return false
+	}
+	
+	// Get actual duration
+	actualDuration, err := getVideoDuration(filePath)
+	if err != nil {
+		fmt.Printf("Warning: Could not get duration for %s, will re-download: %v\n", filePath, err)
+		return false
+	}
+	
+	// Compare with tolerance of 5 seconds
+	tolerance := 5.0
+	expectedFloat := float64(expectedDuration)
+	
+	if math.Abs(actualDuration-expectedFloat) <= tolerance {
+		return true
+	}
+	
+	fmt.Printf("Duration mismatch for %s: expected %.1fs, got %.1fs (tolerance: %.1fs)\n",
+		filePath, expectedFloat, actualDuration, tolerance)
+	return false
+}
+
+func downloadStream(m3u8URL, outputDir, name string, expectedDuration int) error {
 	outputFile := filepath.Join(outputDir, fmt.Sprintf("%s.mp4", name))
+	
+	// Check if file already exists with valid duration
+	if fileExistsWithValidDuration(outputFile, expectedDuration) {
+		fmt.Printf("File %s already exists with correct duration, skipping...\n", name)
+		return nil
+	}
 
 	// Initialize a cyclic progress bar
 	bar := pb.New(100) // The total here doesn't matter; it will cycle
@@ -91,7 +142,7 @@ func main() {
 	}
 
 	for _, video := range data.VideoDefs {
-		err := downloadStream(video.Location, outputDir, video.Name)
+		err := downloadStream(video.Location, outputDir, video.Name, video.Duration)
 		if err != nil {
 			fmt.Printf("Error downloading %s: %v\n", video.Name, err)
 		}
