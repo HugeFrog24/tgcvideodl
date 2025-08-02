@@ -36,13 +36,6 @@
       "has_translations": true
     },
     {
-      "name": "jenova_keynote",
-      "duration": 2347,
-      "location": "https://video.cdn.thatgamecompany.com/encoded/skyfest24/DOS5_InGame-Jenova-KeyN_VLS_39m7s_EN_240708c/DOS5_InGame-Jenova-KeyN_VLS_39m7s_EN_240708c_tgc.m3u8",
-      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt-sf24/Jenova_Keynote_Global/Jenova_Keynote_Global.mp4.vtt",
-      "has_translations": true
-    },
-    {
       "name": "awd_corner_a",
       "duration": 1800,
       "location": "https://video.cdn.thatgamecompany.com/encoded/awd_corner_a/c9f8fd6e-d81d-4eb1-8509-ac6f7159c85e/SCA_AWDCornerA_VLS_30m_EN_250714/SCA_AWDCornerA_VLS_30m_EN_250714_tgc.m3u8",
@@ -130,21 +123,21 @@
       "name": "dev_corner_a",
       "duration": 1800,
       "location": "https://video.cdn.thatgamecompany.com/encoded/dev_corner_a/cf9e5336-109a-49d3-8cfa-b9656b4600cf/SCA_DevCornerA_VLS_30m_EN_250721/SCA_DevCornerA_VLS_30m_EN_250721_tgc.m3u8",
-      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/dev_corner_a/deae7954-f2ae-4c2f-a68c-2e61d9af6e6c/dev_corner_a.vtt",
+      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/dev_corner_a/a0f21df7-6ef3-47c7-ad32-1a0d058999ac/dev_corner_a.vtt",
       "has_translations": true
     },
     {
       "name": "dev_corner_b",
       "duration": 1800,
       "location": "https://video.cdn.thatgamecompany.com/encoded/dev_corner_b/7cbdec66-26a7-418d-8f79-2edab46e3039/SCA_DevCornerB_VLS_30m_EN_250721/SCA_DevCornerB_VLS_30m_EN_250721_tgc.m3u8",
-      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/dev_corner_b/aa37f39c-7c22-4e17-9eb6-a9d4bd3640cb/dev_corner_b.vtt",
+      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/dev_corner_b_0730/639e1a4f-5a64-4725-bf6a-a6800b4574c8/dev_corner_b_0730.vtt",
       "has_translations": true
     },
     {
       "name": "dev_corner_c",
       "duration": 1800,
       "location": "https://video.cdn.thatgamecompany.com/encoded/dev_corner_c/ba7f8a0a-d952-4089-8212-09ceaabec794/SCA_DevCornerC_VLS_30m_EN_250721/SCA_DevCornerC_VLS_30m_EN_250721_tgc.m3u8",
-      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/dev_corner_c/2f40d770-03f6-4b5f-9b57-a70561c16792/dev_corner_c.vtt",
+      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/dev_corner_c_0730/0c60dd7a-2fd9-4315-a905-a61bc9b6cba8/dev_corner_c_0730.vtt",
       "has_translations": true
     },
     {
@@ -158,22 +151,22 @@
       "name": "ember_ch_1",
       "duration": 1800,
       "location": "https://video.cdn.thatgamecompany.com/encoded/ember_ch_1/1b266908-4b4f-4313-93b0-9f5ac2ff2a92/SCA_Ember-Ch1_VLS_30m_EN_250724/SCA_Ember-Ch1_VLS_30m_EN_250724_tgc.m3u8",
-      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/ember_ch_1/1b266908-4b4f-4313-93b0-9f5ac2ff2a92/ember_ch_1_0724.vtt",
+      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/ember_ch_1/607e7ff5-5458-442f-b174-898665ad50f4/ember_ch_1_0730.vtt",
       "has_translations": true
     },
     {
       "name": "ember_ch_2",
       "duration": 1800,
       "location": "https://video.cdn.thatgamecompany.com/encoded/ember_ch_2/51d595b4-ff23-4d90-80d6-b01f75a783f0/SCA_Ember-Ch2_VLS_30m_EN_250724/SCA_Ember-Ch2_VLS_30m_EN_250724_tgc.m3u8",
-      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/ember_ch_2/51d595b4-ff23-4d90-80d6-b01f75a783f0/ember_ch_2_0724.vtt",
+      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/ember_ch_2/a5643bcc-9842-46ef-a8d3-246484d84975/ember_ch_2_0730.vtt",
       "has_translations": true
     },
     {
       "name": "ember_ch_3",
       "duration": 1800,
-      "location": "https://video.cdn.thatgamecompany.com/encoded/ember_ch_3/9c38a875-0b25-478e-bb0e-d2a24380afa8/rd_SCA_EmberCh3_VLS_30m_EN_250624/rd_SCA_EmberCh3_VLS_30m_EN_250624_tgc.m3u8",
-      "subtitle_base": "",
-      "has_translations": false
+      "location": "https://video.cdn.thatgamecompany.com/encoded/ember_ch_3/5bcdbc1e-6c0e-4c97-aa8b-84f0fbe86169/SCA_Ember-Ch3-sRGB_VLS_30m_EN_250731/SCA_Ember-Ch3-sRGB_VLS_30m_EN_250731_tgc.m3u8",
+      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/ember_ch_3/e157fe15-3f7a-4666-9f71-e61a0ecdd710/ember_ch_3.vtt",
+      "has_translations": true
     },
     {
       "name": "ember_ch_4",
@@ -211,25 +204,32 @@
       "has_translations": true
     },
     {
+      "name": "jenova_keynote",
+      "duration": 2347,
+      "location": "https://video.cdn.thatgamecompany.com/encoded/skyfest24/DOS5_InGame-Jenova-KeyN_VLS_39m7s_EN_240708c/DOS5_InGame-Jenova-KeyN_VLS_39m7s_EN_240708c_tgc.m3u8",
+      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt-sf24/Jenova_Keynote_Global/Jenova_Keynote_Global.mp4.vtt",
+      "has_translations": true
+    },
+    {
       "name": "medpad_ch_1",
       "duration": 1200,
-      "location": "https://video.cdn.thatgamecompany.com/encoded/medpad_ch_1/ee3cfc42-b1e7-4bf1-86ae-a942c278e3c3/S27_MedPad-Ch1_VLS_20m_EN_250724/S27_MedPad-Ch1_VLS_20m_EN_250724_tgc.m3u8",
-      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/medpad_ch_1/ee3cfc42-b1e7-4bf1-86ae-a942c278e3c3/medpad_ch_1_0724.vtt",
+      "location": "https://video.cdn.thatgamecompany.com/encoded/medpad_ch_1/91272d41-f903-433a-862e-ca54fa9ab224/S27_MedPad-Ch1_VLS_20m_EN_250729/S27_MedPad-Ch1_VLS_20m_EN_250729_tgc.m3u8",
+      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/medpad_ch_1/80fdedeb-19ed-4171-b86b-44d02f995dbf/medpad_ch_1_0730.vtt",
       "has_translations": true
     },
     {
       "name": "medpad_ch_2",
       "duration": 1200,
-      "location": "https://video.cdn.thatgamecompany.com/encoded/medpad_ch_2/537adcda-575a-424d-8776-5fceef45c6af/S27_MedPad-Ch2_VLS_20m_EN_250724/S27_MedPad-Ch2_VLS_20m_EN_250724_tgc.m3u8",
-      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/medpad_ch_2/537adcda-575a-424d-8776-5fceef45c6af/medpad_ch_2_0724.vtt",
+      "location": "https://video.cdn.thatgamecompany.com/encoded/medpad_ch_2/a893b56f-8e05-4fd8-8dd8-55c972e0c1cc/S27_MedPad-Ch2_VLS_20m_EN_250729/S27_MedPad-Ch2_VLS_20m_EN_250729_tgc.m3u8",
+      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/medpad_ch_2/d6a5834a-197b-426a-ab55-15c20f9ac2e6/medpad_ch_2_0730.vtt",
       "has_translations": true
     },
     {
       "name": "medpad_ch_3",
       "duration": 1200,
-      "location": "https://video.cdn.thatgamecompany.com/encoded/medpad_ch_3/613beed9-5e0b-42da-aa7c-2ad6e939cd40/rd_S27_MedPad-CH3_VLS_20m_EN_250624/rd_S27_MedPad-CH3_VLS_20m_EN_250624_tgc.m3u8",
-      "subtitle_base": "",
-      "has_translations": false
+      "location": "https://video.cdn.thatgamecompany.com/encoded/medpad_ch_3/14426b68-0ab5-4586-881d-fbc6a9e9b130/S27_MedPad-Ch3-sRGB_VLS_20m_EN_250731/S27_MedPad-Ch3-sRGB_VLS_20m_EN_250731_tgc.m3u8",
+      "subtitle_base": "https://video.cdn.thatgamecompany.com/vtt/medpad_ch_3/ab86f3c4-86dc-459d-b7df-8daccbccbf65/medpad_ch_3.vtt",
+      "has_translations": true
     },
     {
       "name": "medpad_ch_4",
